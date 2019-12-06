@@ -7,15 +7,18 @@ namespace Eric_s_Lesson_2_Functions_and_Methods
         static void Main(string[] args)
         {
             var x = "Hello";
-            Console.WriteLine(x);
-            Console.WriteLine(x);
-            Console.WriteLine(x);
+            PrintThreeTimes(x);
 
             x = "Hi";
-            Console.WriteLine(x);
-            Console.WriteLine(x);
-            Console.WriteLine(x);
+            PrintThreeTimes(x);
 
+        }
+
+        private static void PrintThreeTimes(string x)
+        {
+            Console.WriteLine(x);
+            Console.WriteLine(x);
+            Console.WriteLine(x);
         }
     }
 }
