@@ -6,11 +6,11 @@ namespace Eric_s_Lesson_2_Functions_and_Methods
     {
         static void Main(string[] args)
         {
-            var x = "Hello";
-            PrintThreeTimes(x);
+            
+            PrintThreeTimes("Hello");
 
-            x = "Hi";
-            PrintThreeTimes(x);
+            
+            PrintThreeTimes("Hi");
 
         }
 
