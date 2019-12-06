@@ -1,0 +1,9 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <RootNamespace>Eric_s_Lesson_2_Functions_and_Methods</RootNamespace>
+  </PropertyGroup>
+
+</Project>
