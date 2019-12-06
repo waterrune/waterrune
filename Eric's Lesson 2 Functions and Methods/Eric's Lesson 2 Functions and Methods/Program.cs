@@ -6,13 +6,16 @@ namespace Eric_s_Lesson_2_Functions_and_Methods
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello");
-            Console.WriteLine("Hello");
-            Console.WriteLine("Hello");
+            var x = "Hello";
+            Console.WriteLine(x);
+            Console.WriteLine(x);
+            Console.WriteLine(x);
 
-            Console.WriteLine("Hi");
-            Console.WriteLine("Hi");
-            Console.WriteLine("Hi");
+            x = "Hi";
+            Console.WriteLine(x);
+            Console.WriteLine(x);
+            Console.WriteLine(x);
+
         }
     }
 }
