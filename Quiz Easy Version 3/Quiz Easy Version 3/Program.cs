@@ -5,42 +5,47 @@ namespace Quiz_Easy_Version_3
     class Program
     {
         static void Main(string[] args)
+
         {
-
-            Console.WriteLine("Welcome User. We are going to test you 3 questions. Answer correctly to proceed to next question." + '\n' + "Press 'a', 'b', or 'c'. " + '\n');
-            Console.WriteLine("Question 1: Which is red?" + '\n' + "a) Apple" + '\n' + "b) Banana" + '\n' + "c) Cranberry");
-
-            var ans = Console.ReadLine();
-
-
-
-            if (ans == "a")
+            Boolean forever = true;
+            while (forever)
             {
-                Console.WriteLine("Correct!");
+
+                Console.WriteLine("Welcome User. We are going to test you 3 questions. Answer correctly to proceed to next question." + '\n' + "Press 'a', 'b', or 'c'. " + '\n');
+                Console.WriteLine("Question 1: Which is red?" + '\n' + "a) Apple" + '\n' + "b) Banana" + '\n' + "c) Cranberry");
+
+                var ans = Console.ReadLine();
+
+
+
+                if (ans == "a")
+                {
+                    Console.WriteLine("Correct!");
+                    break;
+                }
+
+                else if (ans == "b")
+                {
+                    Console.WriteLine("Wrong!");
+
+                }
+                else if (ans == "c")
+                {
+                    Console.WriteLine("Wrong!");
+
+                }
+                else
+                {
+                    Console.WriteLine("You have entered an invalid key! Please enter again");
+
+                }
+
+
+
 
             }
-
-            else if (ans == "b")
-            {
-                Console.WriteLine("Wrong!");
-
-            }
-            else if (ans == "c")
-            {
-                Console.WriteLine("Wrong!");
-
-            }
-            else
-            {
-                Console.WriteLine("You have entered an invalid key! Please enter again");
-
-            }
-
-
-
-
-
-
+            bool forever2 = true;
+            while (forever2)
 
             {
 
@@ -53,7 +58,7 @@ namespace Quiz_Easy_Version_3
                 {
                     Console.WriteLine("Correct!");
 
-
+                    break;
                 }
                 else if (ans2 == "a")
                 {
@@ -73,7 +78,9 @@ namespace Quiz_Easy_Version_3
 
 
             }
+            Boolean forever3 = true;
 
+            while (forever3)
             {
 
 
@@ -84,7 +91,8 @@ namespace Quiz_Easy_Version_3
 
 
                 {
-                    Console.WriteLine("Correct! Congratulations!");
+                    Console.WriteLine("Correct! Congratulations! You've made it to the end! Score: 3/3");
+                    break;
 
                 }
                 else if (ans3 == "a")
@@ -102,6 +110,7 @@ namespace Quiz_Easy_Version_3
                     Console.WriteLine("You have entered an invalid key! Please enter again");
 
                 }
+
             }
         }
     }
